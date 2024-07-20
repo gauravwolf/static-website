@@ -1,0 +1,213 @@
+body{background-color:#ddd;		 padding:0px;
+    margin:0px;		
+    }
+    .outer{
+    width:1200px;		 		
+    /* background-color:#0f0;		  */
+    margin:0px auto;
+    }
+    .header{
+    width:1200px;				 height:150px;
+    background-color: rgb(8, 8, 216);
+    }
+    .header:hover{
+    background-color :rgb(161, 161, 75);
+     transition: 2s;
+    }
+     .logo{
+    width:100px;			 	height:100px;	
+    background-color:#fff;		float:left;
+    margin:25px 0 0 50px;		border-radius:10px;
+    transition: 2s;
+    }
+    
+    .cname{
+    width:400px;				height:100px;
+    font-size:40px;			float:right;
+    margin:25px 50px 0 0;		padding-top: 15px;
+   text-align:center; 			box-sizing:border-box;
+   color:white;				font-weight:bold;
+   
+    }
+     .cname:hover
+     {
+     color:yellow;
+     font-weight:bold;
+   
+     }
+     .menubar{
+     width:1200px;
+     height:50px;
+     background-color:#fff;
+     }
+    .menus
+    {
+    width:150px;
+    height:40px;
+    background-color:#234;
+    float:left;
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+    text-align:center;
+    padding-top:10px;
+    box-sizing:border-box;
+    margin:5px 0 0 40px;
+    border-radius:5px;
+    }
+    
+    .slider
+    {
+    width:1200px;
+    height:400px;
+    background-color:#ccc;
+    }
+    
+    .main
+    {
+    width:1200px;
+    background-color:#fff;
+    float:left;
+    }
+   .mleft
+    {
+    top: 50px;
+    width:250px;
+    height:auto;
+    background-color:#fff;
+    float:left;
+    } 
+    
+    .lmenus
+    {
+    width:150px;
+    height:40px;
+    background-color:#234;
+    margin:25px 0 0 50px;
+    color:#fff;
+    border-radius:10px;
+    padding-top:10px;
+    box-sizing:border-box;
+    text-align:center;
+    font-size:20px;
+    
+    }
+    
+    .mleft a{
+    color:red;
+    text-decoration:none;
+    }
+    
+    
+    .mright
+    {
+    width:949px;
+    min-height:400px;
+    background-color:#fff;
+    float:left;
+    padding:10px 10px 0 10px;
+    box-sizing:border-box;
+    border-left:1px dotted #555;
+    
+   
+    } 
+    
+   
+    .mright p
+    { 
+    text-align:justify; 
+    color:#555;
+    }
+    .footer{
+    width:1200px;				 
+    height:150px;
+    background-color:rgb(8, 8, 216);
+    clear:both;
+    }
+    .fmenus{
+    color:white;
+    font-size:20px;
+    border-right:1px solid #fff;
+    float:left;
+    padding: 0 20px;
+    margin-top:50px;
+    }
+    red{
+        color:red;
+    }
+    .courses li
+    {
+        width:700px;
+        background-color:#ccc;
+        height:30px;
+        padding:5px 0 0 20px;
+        margin-top:10px;
+    }
+    .courses li:hover{
+        background-color:#000;
+        color:white;
+        margin-left:10px;
+    }
+   
+    .gimg
+    {
+        width:250px;
+        height:175px;
+        background-color:#bbb;
+        margin:50px 0 0 40px;
+        float:left;
+    }
+    .gimg:hover
+    {
+        opacity:0.8;
+        transform:scale(1.5,1.5);
+        transition:2s;
+    }
+    
+    form {
+        width: 300px;
+        margin: 0 auto;
+    }
+    
+    label {
+        display: block;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    
+    /* Input fields styling */
+    input[type="text"],
+    input[type="email"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    /* Textarea styling */
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        resize: vertical;
+    }
+    
+    /* Submit button styling */
+    input[type="submit"] {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+    
+    /* Required fields styling */
+    input:required,
+    textarea:required {
+        box-shadow: 0 0 5px red;
+    }
